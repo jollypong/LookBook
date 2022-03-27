@@ -1,0 +1,24 @@
+[SERVER]
+<SETUP>
+auth.js -> update middleware function 
+server.js -> Apollo server and apply that middleware
+
+<SCHEMAS> 
+resolver.js -> query and mutation for mongoose (use user-controller.js)
+typedefs.js -> define query and mutation
+
+[CLIENT]
+<queries.js>
+GET_ME query set up using Apollo 
+
+<mutation.js>
+login_user 
+add_user
+save_book
+remove_book
+
+<app.js> create apollo provider for request to Apollo server
+<SearchBooks.js> useMutation
+<SavedBooks.js>
+<SignupForm.js>
+<LoginForm.js>
